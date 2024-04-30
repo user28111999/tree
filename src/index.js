@@ -118,10 +118,10 @@ window.addEventListener("resize", () => {
 const tick = () => {
     stats.begin()
 
-    const elapsedTime = clock.getElapsedTime()
+    // const elapsedTime = clock.getElapsedTime()
 
     // Update test mesh
-    torusKnot.rotation.y = elapsedTime * 0.1
+    // torusKnot.rotation.y = elapsedTime * 0.1
 
     controls.update()
     renderer.render(scene, camera)
